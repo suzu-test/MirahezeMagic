@@ -240,7 +240,10 @@
 			"class": "Miraheze\\MirahezeMagic\\HookHandlers\\UserRights",
 			"services": [
 				"MainConfig",
-				"ExtensionRegistry"
+				"ExtensionRegistry",
+				"RestrictedUserGroupConfigReader",
+				"UserGroupManager",
+				"UserRequirementsConditionCheckerFactory"
 			]
 		}
 	},
